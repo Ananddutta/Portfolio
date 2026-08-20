@@ -1,0 +1,26 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "rewrites": [
+    {
+      "source": "/assets/(.*)",
+      "destination": "/portfolio/assets/$1"
+    },
+    {
+      "source": "/styles.css",
+      "destination": "/portfolio/styles.css"
+    },
+    {
+      "source": "/script.js",
+      "destination": "/portfolio/script.js"
+    },
+    {
+      "source": "/",
+      "destination": "/portfolio/index.html"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/portfolio/index.html"
+    }
+  ]
+}
